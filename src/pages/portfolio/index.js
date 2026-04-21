@@ -35,7 +35,7 @@ export const Portfolio = () => {
       <div className="portfolio-wrapper">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Portfolio | {meta.title} </title>
+          <title> {meta.title} </title>
           <meta name="description" content={meta.description} />
         </Helmet>
 
