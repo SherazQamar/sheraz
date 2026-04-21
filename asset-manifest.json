@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sheraz/static/css/main.9628bf6f.css",
+    "main.js": "/sheraz/static/js/main.342498d8.js",
+    "static/media/luxuri1.png": "/sheraz/static/media/luxuri1.e718155eab9000cd11bb.png",
+    "static/media/logomoto1.png": "/sheraz/static/media/logomoto1.cb66b17a925e2085cbe3.png",
+    "static/media/muyasr1.png": "/sheraz/static/media/muyasr1.0abf6c1751efe74e21ec.png",
+    "static/media/leadgram.png": "/sheraz/static/media/leadgram.2ccbc1498025b01f3df3.png",
+    "static/media/nft1.png": "/sheraz/static/media/nft1.b06a8fe279423be48d8d.png",
+    "static/media/r1.png": "/sheraz/static/media/r1.f77091ef76b17691a960.png",
+    "static/media/dmtracker.png": "/sheraz/static/media/dmtracker.9dcf2a4d0051279a010e.png",
+    "static/media/wd1.png": "/sheraz/static/media/wd1.974bd7689c06736800b9.png",
+    "static/media/muyasradmin1.png": "/sheraz/static/media/muyasradmin1.ce481e521555f5463fce.png",
+    "static/media/autoigdm1.png": "/sheraz/static/media/autoigdm1.cff3d5120fd045a7b6e8.png",
+    "static/media/di2.png": "/sheraz/static/media/di2.25c4bc28722d03bb3e2a.png",
+    "static/media/aws1.png": "/sheraz/static/media/aws1.c59325533b436cac1ba1.png",
+    "static/media/hms1.png": "/sheraz/static/media/hms1.e56770d95cfe6bc84086.png",
+    "static/media/raven1.png": "/sheraz/static/media/raven1.41e17412afbfe6442f30.png",
+    "index.html": "/sheraz/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9628bf6f.css",
+    "static/js/main.342498d8.js"
+  ]
+}
