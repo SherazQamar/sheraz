@@ -57,11 +57,11 @@ export const Portfolio = () => {
                 <div className={`po_section_inner ${isImageLeft ? "po_image_left" : "po_image_right"}`}>
                   <div className="po_section_image">
                     <a href={data.link} target="_blank" rel="noopener noreferrer">
-                      <img src={data.img} alt={data.description} />
+                      <img src={data.img} alt={data.title} />
                     </a>
                   </div>
                   <div className="po_section_details">
-                    <h3 className="po_project_title">{(data.description.split(/ — | - /)[0] || data.description).trim()}</h3>
+                    <h3 className="po_project_title">{data.title}</h3>
                     <p className="po_project_desc">{data.description}</p>
                     <a
                       href={data.link}
