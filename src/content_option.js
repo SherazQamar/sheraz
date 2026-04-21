@@ -11,7 +11,7 @@ const introdata = {
         second: "Full Stack Expert building high-performance web apps",
         third: "AI Specialist integrating OpenAI & smart automation",
     },
-    description: "Architecting intelligent SaaS platforms with modern full-stack and AI technologies",
+    description: "Building high-performance digital products to empower your business growth globally",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
