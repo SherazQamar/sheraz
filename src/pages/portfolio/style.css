@@ -130,6 +130,25 @@ html:has(.portfolio-wrapper) {
   transform: translateY(-1px);
 }
 
+[data-theme="light"] .po_project_title {
+  color: #111111;
+}
+
+[data-theme="light"] .po_project_desc {
+  color: rgba(17, 17, 17, 0.84);
+}
+
+[data-theme="light"] .po_project_link {
+  color: #111111;
+  border-color: rgba(17, 17, 17, 0.35);
+}
+
+[data-theme="light"] .po_project_link:hover {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
 /* Mobile: stack image and details vertically */
 @media (max-width: 768px) {
   .po_section_inner {

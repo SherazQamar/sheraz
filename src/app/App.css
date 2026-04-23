@@ -40,3 +40,78 @@
         max-width: 1140px;
     }
 }
+
+.gv_float_btn,
+.wa_float_btn {
+    position: fixed;
+    right: 24px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1200;
+    transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.gv_float_btn {
+    bottom: 94px;
+    background: #ffffff;
+    color: #111111;
+    font-weight: 800;
+    letter-spacing: .02em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+.wa_float_btn {
+    bottom: 24px;
+    background: #25d366;
+    color: #fff;
+}
+
+.wa_float_btn svg {
+    font-size: 1.7rem;
+}
+
+[data-theme="dark"] .gv_float_btn,
+[data-theme="dark"] .wa_float_btn {
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="light"] .gv_float_btn,
+[data-theme="light"] .wa_float_btn {
+    box-shadow: 0 10px 22px rgba(17, 24, 39, 0.22);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.gv_float_btn:hover,
+.wa_float_btn:hover {
+    transform: translateY(-2px) scale(1.04);
+}
+
+.gv_float_btn:hover {
+    background: #f1f1f1;
+    color: #111111;
+}
+
+.wa_float_btn:hover {
+    background: #1fab53;
+    color: #fff;
+}
+
+@media (max-width:576px) {
+    .gv_float_btn {
+        right: 16px;
+        bottom: 78px;
+        width: 54px;
+        height: 54px;
+    }
+    .wa_float_btn {
+        right: 16px;
+        bottom: 16px;
+        width: 54px;
+        height: 54px;
+    }
+}

@@ -23,6 +23,7 @@ export const Home = () => {
             <div className="align-self-center ">
               <div className="intro mx-auto">
                 <h2 className="mb-1x">{introdata.title}</h2>
+                <p className="cofounder_badge mb-1x">{introdata.cofounder}</p>
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
                     options={{
