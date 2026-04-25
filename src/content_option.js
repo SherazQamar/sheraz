@@ -15,7 +15,7 @@ const introdata = {
     description: "Building high-performance digital products to empower your business growth globally",
     genvision_url: "https://www.genvision-ai.com/",
     whatsapp_url: "https://wa.me/923021848158",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: require("./assets/images/self.png"),
 };
 
 const dataabout = {
